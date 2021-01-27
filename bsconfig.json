@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+    "name": "@3c1u/bs-inertia",
+    "bsc-flags": ["-bs-super-errors"],
+    "sources": [
+       "src"
+    ],
+    "package-specs": [
+        {
+            "module": "es6",
+            "in-source": true
+        }
+    ],
+    "reason": { "react-jsx": 3 },
+    "bs-dependencies": ["reason-react"],
+    "suffix": ".bs.js",
+    "namespace": false,
+    "ppx-flags": [],
+    "refmt": 3
+}

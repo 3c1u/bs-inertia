@@ -1,0 +1,41 @@
+{
+  "name": "@3c1u/bs-inertia",
+  "version": "0.1.0",
+  "description": "ReScript binding for Inertia.js",
+  "main": "./src/Inertia.res",
+  "repository": "https://github.com/3c1u/bs-inertia",
+  "author": "Hikaru Terazono (3c1u) <3c1u@vulpesgames.tokyo>",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -w -make-world",
+    "clean": "bsb -clean-world; rm -rf .cache"
+  },
+  "keywords": [
+    "bucklescript",
+    "bucklescript-bindings",
+    "reason",
+    "reasonml",
+    "reasonml-bindings",
+    "ocaml",
+    "inertia",
+    "inertiajs",
+    "rescript",
+    "rescript-bindings",
+    "reason-react"
+  ],
+  "peerDependencies": {
+    "@inertiajs/inertia": "^0.8.4",
+    "@inertiajs/inertia-react": "^0.5.2",
+    "bs-platform": "^8.4.2",
+    "reason-react": "^0.9.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "reason-react": "^0.9.1"
+  },
+  "files": [
+    "/src",
+    "/bsconfig.json"
+  ]
+}
